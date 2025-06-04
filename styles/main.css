@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* 
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+}
+ */
+
+/* .barlow-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+.barlow-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+
+.barlow-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+} */
+
+
+/* .playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+} */
+
+:root{
+
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+.container{
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+}
