@@ -185,11 +185,16 @@ h1{
 .services__inner {
   padding: 15px 75px 110px;
 }
+
+.services h2{
+  text-align: center;
+
+}
+
 h2{
   font-family: "Playfair Display", serif;
   font-weight: 900;
   font-size: 51px;
-  text-align: center;
   color: var(--text-color);
   text-transform: capitalize;
 }
@@ -244,4 +249,49 @@ h3{
   left: 0;
   background: var(--main-color);
   opacity: 0.2;
+}
+
+/* About us */
+
+.about {
+}
+
+.about .container{
+  padding-right: 70px;
+}
+
+.about__inner {
+  display: flex;
+  padding: 75px 0 105px;
+  align-items: center;
+  gap: 85px;
+}
+.about-img {
+  max-width: 735px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  flex-shrink: 1;
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 35px;
+}
+.about-p {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 31px;
+  color: var(--text-color);
+  margin-top: 27px;
+  line-height: 1.6em;
+}
+
+.about__content-link{
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--text-color);
+  margin-top: 30px;
 }
