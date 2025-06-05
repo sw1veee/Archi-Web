@@ -52,10 +52,10 @@ body{
 }
 
 .container{
-    max-width: 1340px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 100px;
 }
 
 /* Navigation */
@@ -131,8 +131,12 @@ body{
 .header {
   position: relative;
 }
+
+.header .container{
+  padding: 0;
+}
+
 .header__inner {
-  max-width: 1440px; /* Фиксированная ширина макета */
   position: relative;
   height: 739px;
   margin: 0 auto;
@@ -167,4 +171,77 @@ h1{
   font-size: 32px;
   letter-spacing: 0.053em;
   line-height: 1.34em;
+}
+
+/* Services */
+
+.services {
+  position: relative;
+}
+
+.services .container{
+}
+
+.services__inner {
+  padding: 15px 75px 110px;
+}
+h2{
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 51px;
+  text-align: center;
+  color: var(--text-color);
+  text-transform: capitalize;
+}
+
+.services__flex {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.circle{
+  max-width: 103px;
+  max-height: 103px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.services-icon {
+}
+
+
+h3{
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 27px;
+  color: var(--text-color);
+}
+
+.services__flex-item {
+  margin-top: 45px;
+
+}
+.services-p {
+  font-family: "Playfair Display", serif;
+  max-width: 158px;
+  font-size: 16px;
+  color: var(--text-color);
+  margin-top: 10px;
+}
+
+.bg-opacity {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--main-color);
+  opacity: 0.2;
 }
